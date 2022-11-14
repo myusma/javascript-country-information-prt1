@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Roboto, serif;
+}
+
+
+h1 {
+    font-family: Merriweather, serif;
+}
+
+.head{
+    display: flex;
+    justify-content: center;
+
+}
+
+.world-map{
+
+    width: 1300px;
+}
+
+.firstCountryName{
+    margin-left: 30px;
+    width: 200px;
+    list-style-type: none;
+
+}
+
+.firstCountryPop{
+    margin-left: 30px;
+    width: 300px;
+    list-style-type: none;
+    margin-bottom: 50px;
+
+}
+
+.parent{
+
+    background-color: whitesmoke;
+    margin: 50px;
+    border-style: solid;
+    border-color: lightgrey;
+    border-radius: 15px;
+
+
+
+}
+
+
+
+
+.list{
+    column-count: 3;
+
+
+}
+
+.flag{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-left: 30px;
+    object-fit: contain;
+
+
+}
+
+.population{
+    margin-left: 30px;
+    width: 200px;
+    font-size: 13px;
+    list-style-type: none;
+
+
+}
+
+.region{
+    margin-left: 30px;
+    margin-bottom: 20px;
+    list-style-type: none;
+
+}
+
+
+.africa{
+
+    color: blue;
+
+    margin-left: 30px;
+    list-style-type: none;
+
+}
+.americas{
+    color: green;
+    margin-left: 30px;
+    list-style-type: none;
+}
+.asia{
+    color: red;
+    margin-left: 30px;
+    list-style-type: none;
+}
+.oceania{
+    color: purple;
+    margin-left: 30px;
+    list-style-type: none;
+}
+.europe{
+    color: yellow;
+    margin-left: 30px;
+    list-style-type: none;
+}
+
+
+
+.else{
+    color: darkviolet;
+    margin-left: 30px;
+    list-style-type: none;
+}
